@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ulf-8">
+    <title> Blog fotografía </title>
+    <style>
+      h1{
+        font-family: "Helvetica", sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+      }
+      .enlaces_externos{
+        text-align: center;
+        font-weight: bold;
+      }
+      #text_inicio{
+        font-family: "Helvetica", sans-serif;
+        text-align: center;
+      }
+      body{
+        background-color: rgb(191, 191, 191 / 26%);
+      }
+      p{
+        font-family: "Helvetica", sans-serif;
+      }
+      ol, ul{
+        font-family: "Helvetica", sans-serif;
+      }
+      #foto_encabezado{
+        position: absolute;
+        bottom: 630px;
+        right: 100px;
+      }
+      h2{
+        font-size: 30px;
+      }
+      #link_venezuela{
+        background: rgb(159, 159, 216);
+      }
+      #text_venezuela{
+        background: rgb(216, 203, 237);
+      }
+      h4{
+        font-size: 20px;
+        border-top: 2px dashed black;
+      }
+      #link_salto_angel{
+        font-family: "Helvetica", sans-serif;
+        text-align: left;
+        width: 1200px;
+        margin-top: 45px;
+      }
+      #imagen_1_Salto_Angel{
+        position: absolute;
+        right: 100px;
+        border: 2px ridge black;
+        top: 600px;
+      }
+      .imagenes_Salto_Angel{
+        border: 2px ridge black;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      #link_canaima{
+        font-family: "Helvetica", sans-serif;
+        text-align: left;
+        width: 1200px;
+        margin-top: 45px;
+      }
+      #imagen_1_Canaima{
+        position: absolute;
+        right: 100px;
+        border: 2px ridge black;
+        top: 1320px;
+      }
+      .imagenes_Canaima{
+        border: 2px ridge black;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      #link_el_avila{
+        font-family: "Helvetica", sans-serif;
+        text-align: left;
+        width: 1200px;
+        margin-top: 45px;
+      }
+      #imagen_1_avila{
+        position: absolute;
+        right: 100px;
+        border: 2px ridge black;
+        top: 2000px;
+      }
+      .imagenes_avila{
+        border: 2px ridge black;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      #link_medanos_coro{
+        font-family: "Helvetica", sans-serif;
+        text-align: left;
+        width: 1200px;
+        margin-top: 45px;
+      }
+      #imagen_1_coro{
+        position: absolute;
+        right: 100px;
+        border: 2px ridge black;
+        top: 2850px;
+      }
+      .imagenes_coro{
+        border: 2px ridge black;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      #link_españa{
+        background: rgb(102, 133, 246);
+      }
+      #text_españa{
+        background: rgb(206, 216, 253);
+      }
+      #link_Sagrada_Familia{
+        font-family: "Helvetica", sans-serif;
+        text-align: left;
+        width: 1200px;
+        margin-top: 45px;
+      }
+      #imagen_sagrada_familia{
+        position: absolute;
+        right: 100px;
+        border: 2px ridge black;
+        top: 3700px;
+      }
+      .imagenes_sagrada_familia{
+        border: 2px ridge black;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      #link_Plaza_Mayor{
+        font-family: "Helvetica", sans-serif;
+        text-align: left;
+        width: 1200px;
+        margin-top: 45px;
+      }
+      #imagen_1_plaza{
+        position: absolute;
+        right: 100px;
+        border: 2px ridge black;
+        top: 4400px;
+      }
+      .imagenes_plaza{
+        border: 2px ridge black;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      #link_Park_Guell{
+        font-family: "Helvetica", sans-serif;
+        text-align: left;
+        width: 1200px;
+        margin-top: 45px;
+      }
+      #imagen_1_parque{
+        position: absolute;
+        right: 100px;
+        border: 2px ridge black;
+        top: 5000px;
+      }
+      .imagenes_parque{
+        border: 2px ridge black;
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+      #link_china{
+        background: rgb(252, 158, 169);
+      }
+      #text_china{
+        background: rgb(254, 205, 210);
+      }
+      #link_muralla_china{
+        font-family: "Helvetica", sans-serif;
+        text-align: left;
+        width: 1200px;
+        margin-top: 45px;
+      }
+      #imagen_1_muralla{
+        position: absolute;
+        right: 100px;
+        border: 2px ridge black;
+        top: 6000px;
+      }
+      .imagenes_muralla{
+        border: 2px ridge black;
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+      #link_ciudad_prohibida{
+        font-family: "Helvetica", sans-serif;
+        text-align: left;
+        width: 1200px;
+        margin-top: 45px;
+      }
+      #imagen_1_ciudad{
+        position: absolute;
+        right: 100px;
+        border: 2px ridge black;
+        top: 6700px;
+      }
+      .imagenes_ciudad{
+        border: 2px ridge black;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      #link_templo_cielo{
+        font-family: "Helvetica", sans-serif;
+        text-align: left;
+        width: 1200px;
+        margin-top: 45px;
+      }
+      #imagen_1_templo{
+        position: absolute;
+        right: 100px;
+        border: 2px ridge black;
+        top: 7300px;
+      }
+      .imagenes_templo{
+        border: 2px ridge black;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      a:hover{
+        background-color: rgb(227, 188, 238);
+      }
+    </style>
+
+  </head>
+  
+  <body>
+        <h1> Blog de fotografía </h1>
+    <!-- El blog se encuentra todavía en modificación-->
+    <p id="text_inicio">Este blog es para compartir con ustedes fotografías de algunos países del mundo, y un poco de información sobre ellos.</p>
+    <img id="foto_encabezado" src="https://i.pinimg.com/originals/54/d7/49/54d7495362311efaf52cb10aea9aa856.png" alt="Cámara" width="200">
+    <h3>Contenido del blog</h3>
+    <ol>
+      <li><a href="#link_venezuela">Venezuela</a></li>
+      <li><a href="#link_españa">España</a></li>
+      <li><a href="#link_china">China</a></li>
+    </ol>
+    
+    <h2 id="link_venezuela">Venezuela</h2>
+    <p id="text_venezuela">Venezuela es un país situado en la parte septentrional de América del Sur, constituido por un área continental y por un gran número de islas e islotes en el mar Caribe, cuya capital y mayor aglomeración urbana es la ciudad de Caracas. <strong><em>El turismo en Venezuela</em></strong> es una industria poco desarrollada, pese a que el país está favorecido por la amplia gama de ambientes naturales en su territorio. Todas las regiones naturales de Venezuela poseen gran cantidad de atractivos turísticos y el bajo costo del transporte, dado el bajo precio de la gasolina en Venezuela, favorece la movilidad de los turistas.<br>
+      El país recibe menos visitantes extranjeros que la mayoría de los países de igual dimensión e incluso que regiones cercanas como Aruba.<br>
+      La industria vivió una caída importante debido a la inestabilidad política durante la Revolución Bolivariana. Según los datos del Ministerio del Poder Popular para el Turismo (MPPT), en 2003 se recibieron a 435.421 turistas, un 47% menos que en 1998. No obstante, esta tasa mostró un repunte en 2008, con 856.810 turistas extranjeros visitando el país.</p>
+    <h3>Sitios turísticos</h3>
+    <ul>
+      <li><a href="#link_salto_angel">Salto Angel</a></li>
+      <li><a href="#link_canaima">Parque Nacional Canaima</a></li>
+      <li><a href="#link_el_avila">Parque Nacional El Ávila</a></li>
+      <li><a href="#link_medanos_coro">Parque Nacional Médanos de Coro</a></li>
+    </ul>
+      
+    <div id="link_salto_angel"><h4><strong>Salto Angel</strong></h4>
+    <p>El Kerepakupai Merú o Salto Ángel ​ es la cascada de agua más alta del mundo, con una altura de 979 m, originada en el Auyantepuy. Se localiza en el parque nacional Canaima, Bolívar, Venezuela; un espacio natural protegido, establecido como parque nacional el 12 de junio de 1962 y declarado​ Patrimonio de la Humanidad por la Unesco en 1994.<br>
+      El Salto Ángel es una de las mayores atracciones turísticas de Venezuela, pero incluso en la actualidad, un viaje a las cataratas no es un asunto simple, debido a que la zona se encuentra aislada por la espesa selva y los tepuyes hacen peligrosa la navegación aérea. Se puede llegar a la región mediante un vuelo en avioneta desde Caracas o Ciudad Bolívar, para llegar a un campamento en Canaima. Otros turistas prefieren llegar a las cataratas por medios más naturales, cruzando la selva por las vías acuáticas, hasta llegar a la base del salto.<br>
+      El Salto Ángel también es conocido erróneamente como Churún-Merú (cuando lo correcto es Kerepakupai Merú, río que da origen al salto y ramificación del Río Churún), nombre que corresponde en realidad a otra catarata que se encuentra en el mismo Tepuy, de unos 400 m de altura.<br>
+      En Santa Elena de Uairén, Ciudad Guayana y Ciudad Bolívar hay operadores turísticos que realizan excursiones por tierra, agua y aire (en avioneta o helicóptero), para observar el Auyantepuy y sus numerosos saltos de agua. Las excursiones por tierra y agua se realizan desde el campamento Canaima y duran unas 13 horas.<br>
+      Los viajes al Salto Ángel tienen lugar de junio a diciembre, cuando los ríos tienen la profundidad suficiente para soportar las curiaras de madera (canoas) utilizadas por los indígenas de etnia pemón. Durante la estación seca (de diciembre a marzo) hay menos caudal de agua que lo que se aprecia en algunas fotos. El escurridizo salto no puede ser visto en días nublados, por lo que los visitantes no tienen ninguna garantía de poder verlo en su plenitud.</p>
+    </div>
+    <img id="imagen_1_Salto_Angel" src="https://tugranviaje.com/wp-content/uploads/2014/12/salto-angel-venezuela-1.jpg" alt="Salto Angel" width="430">
+    <img class="imagenes_Salto_Angel" src="https://ep00.epimg.net/elviajero/imagenes/2017/07/18/album/1500372912_377740_1500373628_album_normal.jpg" alt="Salto Angel desde arriba" width="504">
+    <img class="imagenes_Salto_Angel" src="https://miro.medium.com/max/1838/1*BUciQSaEEveR3r9TgIlxcg.jpeg" alt="Caida de agua Salto Angel" width="550">
+    <img class="imagenes_Salto_Angel" src="https://i.blogs.es/b17ce2/salto-20angel-203/450_1000.jpg" alt="Cascada Salto Angel" width="500">
+  
+    <div id="link_canaima"><h4>Parque Nacional Canaima</h4>
+    <p>El Parque Nacional Canaima es un parque nacional ubicado en el estado Bolívar, Venezuela. Fue instaurado el 12 de junio de 1962 y declarado Patrimonio de la Humanidad por la Unesco en el año 1994.<br>
+      En 1994 el parque nacional Canaima fue nombrado Patrimonio de la Humanidad por la UNESCO, por ser una reserva natural que cuenta con relieves abruptos especiales y únicos en todo el mundo, los tepuyes, que son especies de mesetas de millones de años de antigüedad, con paredes verticales y cimas casi planas.<br>
+      Los tepuyes más conocidos son el Monte Roraima, el más alto y fácil de escalar de todo el parque, y el Auyan-tepui, el más visitado, pues en este se encuentra la catarata o caída de agua más alta del mundo, el Salto Ángel.<br>
+      Los tepuy son rocas areniscas y datan del período en que América y África formaban un supercontinente. A este tipo de relieve se le conoce comúnmente como Macizo Guayanés.<br>
+      El parque es hogar del pueblo pemón. Estos tienen una relación con los tepuyes y creen en que son el hogar de los espíritus «Mawari». El parque está en un sitio lejano a la civilización. Cuenta con pocas carreteras que conectan con otras ciudades cercanas, como Ciudad Guayana. El medio de transporte más común para recorrerlo es a través de canoas.</p>
+    </div>
+    <img id="imagen_1_Canaima" src="https://media-cdn.tripadvisor.com/media/photo-s/02/e9/f2/20/parco-nazionale-di-canaima.jpg" alt="Laguna del Parque Nacional Canaima" width="400">
+    <img class="imagenes_Canaima" src="http://vuelosbaratos.info/wp-content/uploads/2010/01/canaima.jpg" alt="Arcoiris Parque Nacional Canaima" width="505">
+    <img class="imagenes_Canaima" src="https://www.101viajes.com/sites/default/files/Parque%20Canaima.jpg" alt="Aguas Canaima" width="500">
+    <img class="imagenes_Canaima" src="https://www.periodistadigital.com/wp-content/uploads/2018/11/canaima-travellers.jpg" alt="Belleza natural en Canaima" width="600">
+    
+    <div id="link_el_avila"><h4>Parque Nacional El Ávila</h4>
+    <p>El Parque nacional El Ávila, oficialmente Waraira Repano, es un parque nacional localizado en la Cadena del Litoral dentro de la cordillera de la Costa, en el centro-norte de Venezuela. Se extiende desde Caracas, y todo el norte del estado Miranda y sur del estado La Guaira. En 1958 es declarado parque nacional. Esta formación montañosa es el pulmón vegetal de la ciudad y dentro de él pueden realizarse diferentes actividades, lo que lo hace uno de los principales atractivos de la capital venezolana.<br>
+      La vegetación es de bosque de montaña, con distintas variaciones que se distribuye en función de la altura. Entre el nivel del mar y los 200 o 300 m s. n. m. (e incluso a mayor altura según la orientación del relieve) se encuentra el bosque xerófilo, donde prevalecen especies como el cují (Prosopis juliflora). Entre los 800 - 1500 m s. n. m. se localiza el bosque ombrófilo sub-siempreverde que se caracteriza por presentar 2 a 3 estratos arbóreos y sotobosque relativamente denso.<br>
+      Entre los 1200 - 2200 m s. n. m. se sitúa el bosque ombrófilo siempreverde con 2 - 3 estratos arbóreos y sotobosque bien desarrollado. En estos bosques abundan especies de las familias de las orquídeas, helechos, bromeliáceas, aráceas, y se han reportado especies endémicas de las familias Sapindaceae, Melastomataceae, Rubiaceae y Myrtaceae, así como helechos arborescentes y palmeras (Ceroxylon ceriferum).<br>
+      Presenta sabanas de origen antrópico en donde predominan especies como el capín melao, (Melinis minutiflora), el bambusillo (Arthrostylidium venezuelae), la tara amarilla (Oyedaea verbesinoides) y el incienso (Espeletia neriifolia). En las regiones superiores de la Silla de Caracas y el Pico Naiguatá se encuentra una vegetación característica de subpáramo arbustivo costero, constituido por arbustales abiertos de 1 - 3 m de alto con un estrato herbáceo relativamente bien desarrollado, siendo las especies más características el incienso o frailejón arbolito (Libanothamnus nerufolius), bandera española (Castilleja fissifolia) y el falso frailejón (Liabum megacephalum).</p>
+    </div>
+    <img id="imagen_1_avila" src="https://live.staticflickr.com/2337/2204774444_42cee10e14_b.jpg" alt="El Ávila" width="500">
+    <img class="imagenes_avila" src="https://i.pinimg.com/originals/13/4f/27/134f271f8d0710edb376f2b7f2b82916.jpg" alt="Caracas, Venezuela" width="500">
+    <img class="imagenes_avila" src="https://www.ecopoliticavenezuela.org/wp-content/uploads/2020/05/arquitectura_y_empresa_humbolt_avila_revista_rutas.jpg" alt="Hotel Humboldt" width="500">
+    <img class="imagenes_avila" src="https://albertopomares.com/wp-content/uploads/2020/03/AVILA-030.jpg" alt="Ávila de Caracas" width="800">
+    
+    <div id="link_medanos_coro"><h4>Parque Nacional Médanos de Coro</h4>
+    <p>Los Médanos de Coro es un parque nacional ubicado en el estado Falcón, en la jurisdicción de los municipios Miranda, Colina y Falcón, en el noroeste de Venezuela. Su área más importante está circunscrita alrededor del istmo, en la vía a la Península de Paraguaná al costado norte de la ciudad de Santa Ana de Coro. El istmo comprende una faja de 30 km de largo por 5 km de ancho. Posee una altura media de 20 m s. n. m. Sus acumulaciones arenosas se desplazan de forma cambiante debido a la acción de los vientos alisios que soplan de este a oeste. Los Médanos de Coro fueron declarados parque nacional el 6 de febrero de 1974.<br>
+      El Parque está constituido en su mayor extensión por el istmo que une el resto del Estado con la Península de Paraguaná, en el cual aparecen elementos dominantes del paisaje: Los Médanos (formación de dunas), las comunidades arbustivas de manglares, las tierras con vegetación herbácea y espinares. El paisaje de este desierto venezolano está compuesto por dunas de 20 metros de alto sobre el nivel del mar aproximadamente, médanos y marismas salitrosas.</p>
+    </div>
+    <img id="imagen_1_coro" src="http://1.bp.blogspot.com/-kdCYrudlrKc/UYvCbiBLuOI/AAAAAAAAAJM/V2ZE81MWOvg/s1600/ubicacion-medanos-de-coro.jpg" alt="Medanos de Coro" width="500">
+    <img class="imagenes_coro" src="https://upload.wikimedia.org/wikipedia/commons/6/65/Carretera_en_los_M%C3%A9danos_de_Coro.jpg" alt="Vía carretera los Médanos de Coro" width="450">
+    <img class="imagenes_coro" src="https://mapio.net/images-p/18713711.jpg" alt="Agua Medanos de Coro" width="500">
+    
+    <p class="enlaces_externos"><a target="_blank" href="https://www.google.com/travel/guide/compare?sxsrf=ALeKk00El8IvnltIhd34ykPUFOvVRKq4fg:1614588621747&ei=zao8YJWaLdX6gAbtsKuoDA&q=turismo+venezuela&oq=turismo+venezuela&gs_lcp=Cgdnd3Mtd2l6EAMyAggAMgIIADICCAAyAggAMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgQIIxAnOgQIABBDOgcIABBDEIsDOgUIABCLAzoECC4QQzoHCAAQhwIQFDoICAAQxwEQrwE6AgguOgsIABDHARCvARCLAzoFCAAQywFQ8ztY-Upg8UtoAHACeACAAYkCiAHzD5IBBTguOS4xmAEAoAEBqgEHZ3dzLXdpergBAsABAQ&sclient=gws-wiz&uact=5&dest_mid=/m/07ylj&dest_src=o&sa=X&ved=2ahUKEwinpJWv247vAhXLOcAKHTePDw8Q6tEBKAUwAHoECAcQFA">Destinos turísticos para visitar en Venezuela</a></p>
+  
+    <h2 id="link_españa">España</h2>
+    <p id="text_españa">España es un país transcontinental, miembro de la Unión Europea, constituido en Estado social y democrático de derecho y cuya forma de gobierno es la monarquía parlamentaria. Su territorio, con capital en Madrid, está organizado en diecisiete comunidades autónomas, formadas a su vez por cincuenta provincias; y dos ciudades autónomas.<br>
+      El <strong><em>turismo</em></strong> es uno de los pilares de la economía española. En el año 2017, España fue el segundo país del mundo en afluencia de turistas extranjeros, según datos de la Organización Mundial del Turismo, por detrás de Francia y rebasando a Estados Unidos, lo que supone el quinto año consecutivo con récord de turistas. En total recibió 82 millones de turistas, casi un 9 % más que el año 2016. Desde 2012, España ha conseguido un aumento de 30 millones de turistas.</p>
+    <h3>Sitios turísticos</h3>
+    <ul>
+      <li><a href="#link_Sagrada_Familia">Basílica de la Sagrada Família</a></li>
+      <li><a href="#link_Plaza_Mayor">Plaza Mayor</a></li>
+      <li><a href="#link_Park_Guell">Park Güell</a></li>
+    </ul>
+    
+    <div id="link_Sagrada_Familia"><h4>Basílica de la Sagrada Família</h4>
+    <p>El Templo Expiatorio de la Sagrada Familia, conocido simplemente como la Sagrada Familia, es una basílica católica de Barcelona, diseñada por el arquitecto Antoni Gaudí. Iniciada en 1882, todavía está en construcción. Es la obra maestra de Gaudí, y el máximo exponente de la arquitectura modernista catalana. Es uno de los monumentos más visitados de España, junto al Museo del Prado y la Alhambra de Granada, y es la iglesia más visitada de Europa tras la basílica de San Pedro del Vaticano.<br>
+      La Sagrada Familia es un reflejo de la plenitud artística de Gaudí: trabajó en ella durante la mayor parte de su carrera profesional, pero especialmente en los últimos años de su carrera, donde llegó a la culminación de su estilo naturalista, haciendo una síntesis de todas las soluciones y estilos probados hasta aquel entonces. Gaudí logró una perfecta armonía en la interrelación entre los elementos estructurales y los ornamentales, entre plástica y estética, entre función y forma, entre contenido y continente, logrando la integración de todas las artes en un todo estructurado y lógico.</p>
+    </div>
+        <img id="imagen_sagrada_familia" src="https://www.metropoliabierta.com/uploads/s1/10/04/17/2/sagrada-familia.jpeg" alt="Sagrada Familia vista desde arriba" width="500">
+        <img class="imagenes_sagrada_familia" src="https://aws.traveler.es/prod/designs/v1/assets/3000x2000/183627.jpg" alt="Entrada Sagrada Familia" width="600">
+        <img class="imagenes_sagrada_familia" src="https://www.e-zigurat.com/blog/wp-content/uploads/sites/2/2017/04/estructuras-sagrada-familia-1.jpg" alt="Parte interna Sagrada FA" width="600">
+        <img class="imagenes_sagrada_familia" src="https://cdn2.rsvponline.mx/files/rsvp/styles/wide/public/images/main/2020/istock-1130443789.jpg" alt="Sagrada Familia" width="450">
+
+    
+    <div id="link_Plaza_Mayor"><h4>Plaza Mayor</h4>
+    <p>La plaza Mayor está situada en el centro de Madrid, en el barrio de Sol, junto a la calle Mayor y a 300 metros de la Puerta del Sol.<br>
+      El nombre de la plaza ha variado a lo largo de la historia, del primigenio nombre de «plaza del Arrabal» pasó a llamarse «plaza Mayor».<br>
+      Se llamó «plaza del Arrabal» cuando, de estar fuera del recinto amurallado medieval, pasó a constituir el centro de los nuevos barrios conformados por el ensanchamiento de la villa hacia el este durante el reinado de Juan II de Castilla, llamados «el Arrabal».<br>
+      En 1812, cumpliendo el decreto que disponía que todas la plazas mayores de España pasasen a llamarse «plaza de la Constitución», cambió de nombre, pero solo duraría hasta 1814, año en que pasó a llamarse «plaza Real». Recuperó el nombre de «plaza de la Constitución» en los períodos de 1820 a 1823, de 1833 a 1835 y de 1840 a 1843.<br>
+      En 1873, cambió su nombre por el de «plaza de la República», y otra vez a «Plaza de la Constitución» desde la Restauración de Alfonso XII en 1876 hasta la dictadura de Primo de Rivera en 1923. Tras la proclamación de la II República se volvió a cambiar al nombre de «plaza de la Constitución» hasta el final de la Guerra Civil española cuando se recupera el popular nombre de «plaza Mayor», nombre que perdura hasta la actualidad.</p>
+    </div>
+    <img id="imagen_1_plaza" src="https://www.telemadrid.es/2018/07/16/imagenes-de-archivo/Punto-Historia-Plaza-Mayor_2031110954_4798121_1300x731.jpg" alt="" width="500">
+    <img class="imagenes_plaza" src="https://espanafascinante.com/wp-content/uploads/Pprincipal_Plaza-Mayor-de-Madrid.jpg" alt="Plaza Mayor" width="800">
+    <img class="imagenes_plaza" src="https://i.pinimg.com/originals/6a/89/ec/6a89ec2ae4e3873831f325c1f315a5ec.png" alt="Plaza Mayor de noche" width="400">
+    
+    <div id="link_Park_Guell"><h4>Park Güell</h4>
+    <p>El Parque Güell es un parque público con jardines y elementos arquitectónicos situado en la parte superior de la ciudad de Barcelona, en las estribaciones de la sierra de Collserola. El parque se halla en la ladera sur del monte Carmelo y colindante a la ladera norte donde se encuentra el parque del Carmelo. Ideado como urbanización, el parque fue diseñado por el arquitecto Antoni Gaudí, máximo exponente del modernismo catalán, por encargo del empresario Eusebi Güell. Construido entre 1900 y 1914, fue inaugurado como parque público en 1926.<br>
+      El parque Güell es un reflejo de la plenitud artística de Gaudí: pertenece a su etapa naturalista (primera década del siglo xx), período en que el arquitecto perfeccionó su estilo personal, a través de la inspiración en las formas orgánicas de la naturaleza, para lo que puso en práctica toda una serie de nuevas soluciones estructurales originadas en sus profundos análisis de la geometría reglada. A ello añade el artista catalán una gran libertad creativa y una imaginativa creación ornamental: partiendo de cierto barroquismo sus obras adquieren gran riqueza estructural, de formas y volúmenes desprovistos de rigidez racionalista o de cualquier premisa clásica. En el parque Güell desplegó Gaudí todo su genio arquitectónico y puso en práctica muchas de sus innovadoras soluciones estructurales que serían emblemáticas de su estilo organicista y que culminarían en la Sagrada Familia.</p>
+    </div>
+    <img id="imagen_1_parque" src="https://www.metropoliabierta.com/uploads/s1/64/46/81/park-gueell-pixabay_5_570x340.png" alt="Escaleras Park Güell" width="500">
+    <img class="imagenes_parque" src="https://cdn.citywonders.com/media/16954/park-guell.jpg?anchor=center&mode=crop&width=1024&height=670" alt="Park Güell" width="550">
+    <img class="imagenes_parque" src="https://cdn2.civitatis.com/espana/barcelona/guia/parque-guell.jpg" alt="Mosaicos Park Güell" width="600">
+    <p class="enlaces_externos"><a target="_blank" href="https://www.google.com/travel/things-to-do?g2lb=2502548,2503781,2503807,4258168,4270442,4306835,4317915,4328159,4371335,4401769,4419364,4429192,4463666,4482194,4482438,4486153,4491350,4495816,4270859,4284970,4291517&hl=es-419&gl=es&dest_mid=/m/06mkj&dest_state_type=main&dest_src=o&sa=X&ved=2ahUKEwjhqJ-PkY_vAhWXilwKHUDgBdYQ7NEBKAAwAHoECA4QAw">Destinos turísticos para visitar en España</a></p>    
+    
+    <h2 id="link_china">China</h2>
+    <p id="text_china">La República Popular China (en chino simplificado: 中华人民共和国 y en pinyin: Zhōnghuá Rénmín Gònghéguó), o simplemente China (en chino simplificado: 中国 y en pinyin: Zhōngguó), es un país soberano situado en Asia Oriental. Es el país más poblado del mundo, con más de 1400 millones de habitantes, y la primera potencia económica mundial por PIB, en términos de paridad de poder adquisitivo.<br>
+      El <strong><em>turismo</em></strong> se ha convertido en un factor importante en la mejora de la competitividad internacional del país. El sector turístico ha crecido notablemente en los últimos años; en 2007 suponía un 6,1 % de su PIB y se estima que en 2020. En 2010, China era el tercer país más visitado del mundo,con 55,7 millones de visitantes internacionales. Además, esta rama se ve muy beneficiada por el turismo nacional; en octubre de 2012, cerca de 740 millones de chinos viajaron dentro de las fronteras del país. China el segundo país del mundo con más lugares declarados Patrimonio de la Humanidad por la Unesco, con 52, solo detrás de Italia.</p>
+    <h3>Sitios turísticos</h3>
+    <ul>
+      <li><a href="#link_muralla_china">Gran Muralla China</a></li>
+      <li><a href="#link_ciudad_prohibida">Ciudad Prohibida</a></li>
+      <li><a href="#link_templo_cielo">Templo del Cielo</a></li>
+    </ul>
+    
+    <div id="link_muralla_china"><h4>Gran Muralla China</h4>
+    <p>La Gran Muralla china es una antigua fortificación china, ​ construida y reconstruida entre el siglo V a. C. y el siglo XVI para proteger la frontera norte del Imperio chino durante las sucesivas dinastías imperiales de los ataques de los nómadas xiongnu de Mongolia y Manchuria. Contando sus ramificaciones y construcciones secundarias, se calcula que tiene unos 21 200 km de longitud, desde la frontera con Corea, al borde del río Yalu, hasta el desierto de Gobi, a lo largo de un arco que delinea aproximadamente el borde sur de Mongolia Interior, aunque hoy solo se conserva un 30 % de ella.<br>
+      Los materiales usados son aquellos disponibles en los alrededores de la construcción. Cerca de Pekín se utilizó piedra caliza. En otros sitios se utilizó granito o ladrillo cocido. Básicamente, era una larga tapia de arcilla y arena, cubierta con varias paredes de ladrillo. Eso la hizo muy resistente a los impactos de armas de asedio.<br>
+      En cuanto al material de la parte de la muralla construida durante la dinastía Qin, la materia prima depende de la disponibilidad de tierra, mientras que el diseño y la ubicación de torres de vigilancia, cuarteles y los pasajes son seleccionados sobre la base de las ventajas estratégicas que ofrece la configuración física de las regiones. Las paredes se construyen en capas alternas de grava triturada y cañas, fueron cubiertas con arcilla para ser protegidas de la erosión y hacerla más difícil de escalar.</p>
+    </div>
+    <img id="imagen_1_muralla" src="https://i.pinimg.com/originals/8d/6d/7d/8d6d7ddc96f2728ea1eb24da4660c152.jpg" alt="Muralla China invierno" width="550">
+    <img class="imagenes_muralla" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/1200px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg" alt="Muralla China vista desde lejos" width="600">
+    <img class="imagenes_muralla" src="https://www.preferente.com/wp-content/uploads/2019/06/BBR3U1S.img_.jpg" alt="Caminata Muralla China" width="450">
+    
+    <div id="link_ciudad_prohibida"><h4>Ciudad Prohibida</h4>
+    <p>La Ciudad Prohibida es un complejo palaciego situado en Pekín, capital de China. Durante casi quinientos años, desde la dinastía Ming hasta el final de la dinastía Qing, fue la residencia oficial de los emperadores de China y su corte, así como centro ceremonial y político del Gobierno chino. En la actualidad es una atracción turística que alberga el Museo del Palacio. Construido entre 1406 y 1420 por orden del emperador Yongle, el complejo actual consta de 980 edificios y ocupa una superficie de 72 hectáreas.<br>
+      La Ciudad Prohibida es el mayor complejo palacial superviviente del mundo y cubre 72 hectáreas. Tiene forma de rectángulo, con 961 metros de norte a sur y 753 m de este a oeste, y contiene en la actualidad 980 edificios con 9999 estancias. La Ciudad Prohibida fue diseñada para ser el centro de la antigua ciudad amurallada de Pekín y se inserta dentro de una zona amurallada mayor llamada la Ciudad Imperial, que a su vez queda dentro de la Ciudad Interior, que linda por el sur con la Ciudad Exterior.<br>
+      La Ciudad Prohibida sigue siendo importante en el trazado urbano de la ciudad de Pekín, pues su eje central norte-sur es el eje central de la capital china. Este eje se extiende al sur a través de la Puerta de Tian'anmen hasta la Plaza de Tian'anmen, el centro ceremonial de la República Popular China, y hasta la puerta Yongdingmen. Hacia el norte llega al Parque Jingshan y las torres Gulou y Zhonglou.26​ Este eje no está exactamente alineado de norte a sur, pues se desvía algo más de dos grados, y los investigadores creen ahora que fue trazado en la dinastía Yuan para alinearse con Xanadú, la otra capital de su imperio.</p>
+    </div>
+    <img id="imagen_1_ciudad" src="https://www.101viajes.com/sites/default/files/ciudad-prohibida-pekin.jpg" alt="Entrada Ciudad Prohibida" width="550">
+    <img class="imagenes_ciudad" src="https://i2.wp.com/thehappening.com/wp-content/uploads/2019/02/ciudad-prohibida-4.jpg?fit=1024%2C694&ssl=1" alt="Vista desde afuera Ciudad Prohibida" width="500">
+    <img class="imagenes_ciudad" src="https://data.viaje-a-china.com/information-view/information/word_img/f14e27097f9b083f791dd674779bdbe8.jpg" alt="Ciudad Prohibida vista desde arriba" width="600">
+    
+    <div id="link_templo_cielo"><h4>Templo del Cielo</h4>
+    <p>El Templo del Cielo es el mayor templo de su clase en toda la República Popular de China. Fue construido en el año 1420 y tanto la dinastía Ming como la Qing lo utilizaron para adorar por las cosechas y dar las gracias al cielo por los frutos obtenidos. Desde el año 1998 está considerado como Patrimonio de la Humanidad por la Unesco. Está situado en el parque Tiantan Gongyuan, al sur de la ciudad de Pekín.<br>
+      Este templo con nombre chino Qi nian dian, es, tal vez, el edificio más conocido de todo el conjunto, y uno de los más representativos de la ciudad de Pekín. Se trata de un edificio circular, de un diámetro de 30 metros y una altura de 38 metros. Está construido sobre tres terrazas circulares de mármol blanco en forma de Mariana. El edificio se sostiene sobre 28 pilares de madera y muros de ladrillo.<br>
+      El salón tiene un triple tejado construido con tejas de color azul y está rematado por una bola dorada en su cúpula. Este edificio fue pasto de las llamas en el año 1899 y reconstruido en el año 1900.</p>
+    </div>
+    <img id="imagen_1_templo" src="https://mywowo.net/media/images/cache/pechino_tempio_del_cielo_01_introduzione_jpg_1200_630_cover_85.jpg" alt="Templo del Cielo desde cerca" width="500">
+    <img class="imagenes_templo" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/71/e3/fd.jpg" alt="Entrada Templo del Cielo" width="500">
+    <img class="imagenes_templo" src="https://assets.kolaboo.com/pic/entradas-templo-del-cielo-pekin.jpg" alt="Templo del cielo" width="1000">
+    
+    <p class="enlaces_externos"><a target="_blank" href="https://www.google.com/travel/things-to-do?g2lb=2502548%2C2503781%2C2503807%2C4258168%2C4270442%2C4306835%2C4317915%2C4328159%2C4371335%2C4401769%2C4419364%2C4429192%2C4463666%2C4482194%2C4482438%2C4486153%2C4491350%2C4495816%2C4270859%2C4284970%2C4291517&hl=es-419&gl=es&dest_mid=%2Fm%2F0d05w3&dest_state_type=main&dest_src=o&sa=X&ved=2ahUKEwjhqJ-PkY_vAhWXilwKHUDgBdYQ7NEBKAAwAHoECA4QAw&tcfs=EhIKCS9tLzBkMDV3MxIFQ2hpbmE#ttdm=31.554153_106.304578_4">Destinos turísticos para visitar en China</a></p>
+  </body>
+</html>
